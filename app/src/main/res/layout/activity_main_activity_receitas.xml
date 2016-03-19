@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityReceitas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:onClick="openReceita01"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/macarraobolonhesa"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_macarrao_bolonhesa"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macarrão a Bolonhesa"
+                android:id="@+id/text_macarrao_bolonhesa"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/img_macarrao_bolonhesa"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de preparo - 45 min."
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/img_macarrao_bolonhesa"
+                android:layout_below="@id/text_macarrao_bolonhesa"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:onClick="openReceita02"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/palha_italiana"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_palha_italiana"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palha Italiana"
+                android:id="@+id/text_palha_italiana"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/img_palha_italiana"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de preparo - 30 min."
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/img_palha_italiana"
+                android:layout_below="@id/text_palha_italiana"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:onClick="openReceita03"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/massa_pizza"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_massa_pizza"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Massa de Pizza"
+                android:id="@+id/text_massa_pizza"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/img_massa_pizza"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de preparo - 15 min."
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/img_massa_pizza"
+                android:layout_below="@id/text_massa_pizza"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:onClick="openReceita04"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pesto"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_pesto"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Molho Pesto"
+                android:id="@+id/text_pesto"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/img_pesto"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de preparo - 5 min."
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/img_pesto"
+                android:layout_below="@id/text_pesto"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:onClick="openReceita05"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/macarrao_sardinha"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_sardinha"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macarrão com sardinha"
+                android:id="@+id/text_sardinha"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/img_sardinha"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo de preparo - 20 min."
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/img_sardinha"
+                android:layout_below="@id/text_sardinha"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

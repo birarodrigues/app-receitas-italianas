@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Receitas Italianas</string>
+    <string name="title_activity_main_activity_receitas">MainActivityReceitas</string>
+</resources>
